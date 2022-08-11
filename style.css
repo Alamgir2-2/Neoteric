@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background-image: url("2.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    width: 1200px;
+    height: 100px;
+    margin: left 80px; ;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: #e40d0d;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 40px;
+    float: left;
+    padding-top: 10px;
+    
+}
+
+.pera{
+    color: #0b0b0b;
+    font-size: 10px;
+    font-family: Cambria;
+    padding-left: 40px;
+    float: left;
+    padding-top:none;
+}
+.menu{
+    width:400px;
+    float:left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 60px;
+    margin-top: 25px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(88, 75, 19);
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: rgb(4, 4, 244);
+}
+.search{
+    width: 330px;
+    height: 20px;
+    float: left;
+    margin-left: 270px;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 30px;
+    background: transparent;
+    border: 2px solid rgb(84, 15, 15);
+    margin-top: 15px;
+    color: rgb(5, 1, 1);
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn{
+    width: 80px;
+    height: 30px;
+    background: #961010;
+    border: 2px solid rgb(14, 3, 3);;
+    margin-top: 15px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
+.content{
+    width: 1200px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 80px;
+    color: black;
+    position: relative;
+}
+
+.content .pr{
+    padding-left: 20px;
+    margin-left: 20px;
+    font-size: 15px;
+    margin-top: 15px;
+}
+.form{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top, rgba(47, 47, 47, 0.8)50%,rgba(47, 47, 47, 0.8)50%);
+    position: absolute;
+    top: 150px;
+    left: 850px;
+    border-radius: 15px;
+    padding: 30px;
+    
+}
+.form h2{
+    width: 220px;
+    background: #0b0b0b;
+    font-family: sans-serif;
+    text-align: center;
+    color: #961010;
+    font-size: 25px;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+.form input{
+    background: transparent;
+    width: 240px;
+    height: 35px;
+    border-bottom: 1px solid red;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: aquamarine;
+    font-size: 15px;
+}
+.form input :focus{
+    outline: none;
+}
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: #250101;
+    border: none;
+    margin-top: 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    color: rgb(168, 162, 162);
+    cursor:pointer;
+}
+.btnn:hover{
+    background: #010c24;
+    color: rgb(168, 162, 162);
+}
+.btnn a{
+    text-decoration: none;
+    color: #6a7686;
+}
+.form .link{
+    font-family: Arial;
+    font-size: 18px;
+    padding-top: 25px;
+    text-align: center;
+}
+.form .link a{
+    text-decoration: none;
+    color:#250101;
+}
+.form .liw{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.icoon{
+    align-items: center;
+    
+}
+.icoon a{
+    text-decoration: none;
+    color:#f8f2f2;
+    align-items: center;
+    
+}
+.icoon ion-icon{
+    color: #fff;
+    font-size: 22px;
+    padding-left: 22px;
+    padding-top: 25px;
+}
+.icoon :hover{
+    color: #010c24;
+}
+.fresh{
+    background: transparent;
+}
+.p{
+    color: #0a50e8;
+}
