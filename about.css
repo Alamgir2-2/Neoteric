@@ -67,6 +67,18 @@ ul li a:hover{
     color: rgb(4, 4, 244);
 }
 
+.Btn{
+    width: 80px;
+    height: 30px;
+    position: absolute;
+    align-items: center;
+    top: 450px;
+    left: 1050px;
+    border-radius: 15px;
+    padding: 30px;
+    
+}
+
 .btn{
     width: 80px;
     height: 30px;
