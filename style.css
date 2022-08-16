@@ -46,7 +46,7 @@
 ul{
     float: left;
     display: flex;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
 }
 ul li{
@@ -60,10 +60,10 @@ ul li a{
     color: rgb(88, 75, 19);
     font-family: Arial;
     font-weight: bold;
-    transition: 0.4s ease-in-out;
+    transition: 0.2s ease-in-out;
 }
 ul li a:hover{
-    color: rgb(4, 4, 244);
+    color: rgb(6, 6, 244);
 }
 .search{
     width: 330px;
