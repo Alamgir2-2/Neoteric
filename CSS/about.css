@@ -2,14 +2,43 @@
     margin: 0;
     padding: 0;
 }
-
 .main{
     width: 100%;
-    background-image: url("images/contact.jpg");
+    background-image: url("/images/about.jpg");
     background-position: center;
     background-size: cover;
     height: 100vh;
 }
+.p1{
+    text-align: center;
+    text-transform: inherit;
+    text-shadow: #961010;
+    font-style:oblique;
+    font-family:cursive;
+}
+
+
+.neo{
+    font-style:normal;
+    font-family: normal;
+    text-shadow: #f60707;
+    font-size:100px;
+    margin: center;
+    color: #0458ff;
+    margin-top: 100px;
+}
+
+.lrnabt{
+    width: 320px;
+    height: 180px;
+    position: absolute;
+    top: 30px;
+    left: 500px;
+    border-radius: 15px;
+    padding: 30px;
+    font-size: xx-large;
+}
+
 .icon{
     width: 200px;
     float: left;
@@ -26,17 +55,19 @@
 }
 
 .pera{
-    color: #a09b9b;
+    color: #0b0b0b;
     font-size: 10px;
     font-family: Cambria;
     padding-left: 40px;
     float: left;
     padding-top:none;
 }
+
 .menu{
     width:400px;
-    float:left;
+    float: left;
     height: 70px;
+    
 }
 ul{
     float: left;
@@ -52,13 +83,40 @@ ul li{
 }
 ul li a{
     text-decoration: none;
-    color: rgb(232, 213, 126);
+    color: rgb(88, 75, 19);
     font-family: Arial;
     font-weight: bold;
     transition: 0.2s ease-in-out;
 }
 ul li a:hover{
     color: rgb(4, 4, 244);
+}
+
+.Btn{
+    width: 80px;
+    height: 30px;
+    position: absolute;
+    align-items: center;
+    top: 450px;
+    left: 1050px;
+    border-radius: 15px;
+    padding: 30px;
+    
+}
+
+.btn{
+    width: 80px;
+    height: 30px;
+    background: #961010;
+    border: 2px solid rgb(14, 3, 3);;
+    margin-top: 15px;
+    color: #fff;
+    font-size: 15px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px ;
+}
+.btn:focus{
+    outline: none;
 }
 .search{
     width: 330px;
@@ -73,27 +131,13 @@ ul li a:hover{
     background: transparent;
     border: 2px solid rgb(84, 15, 15);
     margin-top: 15px;
-    color: rgb(245, 238, 238);
+    color: rgb(5, 1, 1);
     border-right: none;
     font-size: 16px;
     float: left;
     padding: 10px;
     border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;
-}
-.btn{
-    width: 80px;
-    height: 30px;
-    background: #961010;
-    border: 2px solid rgb(14, 3, 3);;
-    margin-top: 15px;
-    color: #fff;
-    font-size: 15px;
-    border-bottom-right-radius: 5px;
-    border-top-right-radius: 5px;
-}
-.btn:focus{
-    outline: none;
 }
 .srch:focus{
     outline: none;
