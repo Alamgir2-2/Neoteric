@@ -245,3 +245,35 @@ footer ol{
     margin-top: 20px;
     margin-bottom: 20px;
 }
+.subscribe{
+    margin-top: 60px;
+    margin-left: 150px;
+    margin-bottom: 20px;
+
+}
+input{
+    background-color: #010e31;
+    width: 325px;
+    height: 24px;
+    color: #F3F3F3;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #F3F3F3;
+}
+.subscribe button{
+    border-radius: 8px;
+    background-color: white;
+    color: #F15B22;
+    padding: 15px;
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 12px;
+}
+.subscribe h3{
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #06f4f8;
+}
+.list{
+    gap: 5px;
+}
