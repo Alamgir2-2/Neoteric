@@ -3,19 +3,21 @@
     padding: 0;
 }
 
+.navbar {
+    background-color: #05bedb;
+    /* overflow: hidden; */
+    position:sticky;
+    /* display: block; */
+    width: 100%;
+    height: 100px;
+    top: 0;
+    /* margin: left 80px; */
+}
 .main {
     width: 100%;
     background-image: url("/images/2.jpg");
-    background-position: center;
     background-size: cover;
     height: 100vh;
-}
-
-.navbar {
-    width: 1200px;
-    height: 100px;
-    margin: left 80px;
-    ;
 }
 
 .icon {
@@ -44,20 +46,19 @@
 }
 
 .menu {
-    width: 400px;
+    width: 500px;
     float: left;
     height: 70px;
+    margin-left: 30px;
+    
 }
 
 .menu ul {
     display: flex;
+    gap: 40px;
 }
 
-ul {
-    float: left;
-    justify-content: center;
-    align-items: center;
-}
+
 
 ul li {
     list-style: none;
@@ -81,7 +82,7 @@ ul li a:hover {
     width: 330px;
     height: 20px;
     float: left;
-    margin-left: 270px;
+    margin-left: 100px;
 }
 
 .srch {
@@ -95,7 +96,7 @@ ul li a:hover {
     border-right: none;
     font-size: 16px;
     float: left;
-    padding: 10px;
+    padding: 5px;
     border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;
 }
@@ -122,12 +123,10 @@ ul li a:hover {
 }
 
 .content {
-    width: 1200px;
-    height: 40px;
-    margin-top: 20px;
-    margin-left: 80px;
+    padding: 50px 30px;
+    width: 200px;
+    height: 20px;
     color: black;
-    position: relative;
 }
 
 .content .pr {
@@ -137,15 +136,17 @@ ul li a:hover {
     margin-top: 15px;
 }
 
+.section{
+    display: flex;
+}
+
 .form {
-    width: 250px;
+    width: 260px;
     height: 380px;
     background: linear-gradient(to top, rgba(47, 47, 47, 0.8)50%, rgba(47, 47, 47, 0.8)50%);
-    position: absolute;
-    top: 150px;
-    left: 850px;
+    margin-left: 250px;
     border-radius: 15px;
-    padding: 30px;
+    padding: 28px;
 
 }
 
@@ -218,12 +219,13 @@ ul li a:hover {
 }
 
 .icoon {
+    position:relative;
     align-items: center;
 
 }
 
 .icoon a {
-    text-decoration: none;
+    text-decoration:dotted;
     color: #f8f2f2;
     align-items: center;
 
@@ -233,7 +235,7 @@ ul li a:hover {
     color: #fff;
     font-size: 22px;
     padding-left: 22px;
-    padding-top: 25px;
+    padding-top: 10px;
 }
 
 .icoon :hover {
