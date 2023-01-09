@@ -43,9 +43,11 @@
     float:left;
     height: 70px;
 }
+.menu ul{
+    display: flex;
+}
 ul{
     float: left;
-    display: flex;
     justify-content:center;
     align-items: center;
 }
@@ -213,33 +215,37 @@ ul li a:hover{
 .p{
     color: #0a50e8;
 }
-footer{
+footer{ 
     display: flex;
-    gap:50px;
+    gap:30px;
     background-color: #010c24;
     color: #f8f2f2;
     
     
 }
 
-footer ol{
+footer ul{
     margin-left: 20px;
-    gap: 10px;
 }
-.footer-div{
-    margin-top: 20px;
+.footerdiv{
+    text-align: left;
+    background: rgb(44, 43, 43);
+    margin-top: 40px;
     margin-left: 40px;
     margin-bottom: 40px;
 }
-.footer-div h1{
+.footerdiv h1{ 
+    background: rgb(246, 137, 137);
+    text-align:left;
+    margin-left: 80px;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 
 .subscribe{
-    margin-top: 60px;
-    margin-left: 150px;
+    margin-top: 160px;
+    margin-left: 50px;
     margin-bottom: 20px;
 
 }
@@ -260,12 +266,10 @@ input{
     font-weight: 600;
     font-size: 15px;
     margin-top: 12px;
+    text-align: right;
 }
 .subscribe h3{
     font-size: 30px;
     margin-bottom: 10px;
     color: #06f4f8;
-}
-.list{
-    gap: 5px;
 }
