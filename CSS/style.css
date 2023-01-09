@@ -229,7 +229,7 @@ footer ul{
 }
 .footerdiv{
     text-align: left;
-    background: rgb(44, 43, 43);
+    background: rgb(39, 40, 41);
     margin-top: 40px;
     margin-left: 40px;
     margin-bottom: 40px;
@@ -266,7 +266,7 @@ input{
     font-weight: 600;
     font-size: 15px;
     margin-top: 12px;
-    text-align: right;
+    
 }
 .subscribe h3{
     font-size: 30px;
