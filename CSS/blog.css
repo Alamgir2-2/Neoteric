@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.main{
+    padding: 2%;
+}
+
+.blogs{
+    display: flex;
+    gap: 5%;
+    flex-direction: column;
+}
+
+footer{
+    background-color: #010c24;
+    width: auto;
+}
+
+.footer-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: #f8f2f2;
+
+
+}
+
+
+footer ul {
+    margin-left: 0px;
+}
+
+.footerdiv {
+    text-align: left;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+.footerdiv h1 {
+    background: rgb(77, 75, 75);
+    margin-bottom: 10px;
+}
+
+
+.subscribe {
+    padding: 5%;
+
+}
+
+input{
+    background-color: #010e31;
+    color: #F3F3F3;
+    border-radius: 5px;
+    padding: 15px;
+    border: 1px solid #F3F3F3;
+}
+
+.subscribe button {
+    border-radius: 8px;
+    background-color: white;
+    color: #F15B22;
+    padding: 15px;
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 12px;
+
+}
+
+.subscribe h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #06f4f8;
+}
+
+@media screen and (max-width: 576px) {
+    .blogs{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 576px) {
+        .footer-section {
+            flex-direction: column;
+        }
+}
